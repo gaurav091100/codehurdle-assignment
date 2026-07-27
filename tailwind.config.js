@@ -14,6 +14,8 @@ module.exports = {
         "surface-hover": "rgb(var(--surface-hover) / <alpha-value>)",
         border: "rgb(var(--border) / <alpha-value>)",
         "brand-fg": "rgb(var(--brand-fg) / <alpha-value>)",
+        "footer-background": "rgb(var(--footer-background) / <alpha-value>)",
+        "footer-foreground": "rgb(var(--footer-foreground) / <alpha-value>)",
         ink: {
           950: "#05070d",
           900: "#0a0e17",

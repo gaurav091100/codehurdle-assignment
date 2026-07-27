@@ -12,6 +12,8 @@
     --brand-fg: 26 116 82;
     --grid-color: 5 7 13;
     --grid-opacity: 0.06;
+    --footer-background: 31 41 55;
+    --footer-foreground: 255 255 255;
   }
 
   .dark {
@@ -23,6 +25,8 @@
     --brand-fg: 124 204 165;
     --grid-color: 255 255 255;
     --grid-opacity: 0.04;
+    --footer-background: 8 12 20;
+    --footer-foreground: 229 231 235;
   }
 
   html {
