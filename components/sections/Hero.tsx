@@ -86,7 +86,7 @@ function CodeWindow() {
           <span className="h-3 w-3 rounded-full bg-yellow-400/70" />
           <span className="h-3 w-3 rounded-full bg-green-400/70" />
         </div>
-        <span className="text-xs text-foreground/40">mock_interview.py</span>
+        <span className="text-xs text-white/40">mock_interview.py</span>
         <span className="flex items-center gap-1.5 rounded-full bg-accent-500/15 px-2.5 py-1 text-xs font-medium text-accent-400">
           <span className="h-1.5 w-1.5 rounded-full bg-accent-400" />
           18:42 remaining
@@ -94,24 +94,24 @@ function CodeWindow() {
       </div>
 
       <div className="space-y-1.5 px-6 py-6 font-mono text-[13px] leading-relaxed">
-        <p className="text-foreground/40"># Problem: Merge overlapping intervals</p>
+        <p className="text-white/40"># Problem: Merge overlapping intervals</p>
         <p>
           <span className="text-purple-600 dark:text-purple-300">def</span>{" "}
           <span className="text-brand-fg">merge</span>
-          <span className="text-foreground/70">(intervals):</span>
+          <span className="text-white/70">(intervals):</span>
         </p>
-        <p className="pl-4 text-foreground/70">
+        <p className="pl-4 text-white/70">
           intervals.sort(<span className="text-accent-500 dark:text-accent-400">key</span>=
           <span className="text-purple-600 dark:text-purple-300">lambda</span> i: i[0])
         </p>
-        <p className="pl-4 text-foreground/70">merged = []</p>
+        <p className="pl-4 text-white/70">merged = []</p>
         <p className="pl-4">
           <span className="text-purple-600 dark:text-purple-300">for</span>{" "}
-          <span className="text-foreground/70">start, end</span>{" "}
+          <span className="text-white/70">start, end</span>{" "}
           <span className="text-purple-600 dark:text-purple-300">in</span>{" "}
-          <span className="text-foreground/70">intervals:</span>
+          <span className="text-white/70">intervals:</span>
         </p>
-        <p className="pl-8 text-foreground/70">...</p>
+        <p className="pl-8 text-white/70">...</p>
         <p className="mt-3 flex items-center gap-2 text-brand-fg">
           <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
           Runtime: O(n log n) — optimal
@@ -120,10 +120,10 @@ function CodeWindow() {
       </div>
 
       <div className="flex items-center justify-between border-t border-border/10 px-6 py-4">
-        <span className="text-xs text-foreground/40">
+        <span className="text-xs text-white/40">
           Feedback generated after submission
         </span>
-        <span className="rounded-full bg-foreground/5 px-3 py-1 text-xs font-medium text-foreground/70">
+        <span className="rounded-full bg-white/5 px-3 py-1 text-xs font-medium text-white/70">
           Arrays &amp; Sorting
         </span>
       </div>
