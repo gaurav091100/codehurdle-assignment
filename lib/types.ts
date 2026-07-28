@@ -29,6 +29,19 @@ export interface ValueProp {
   statLabel?: string;
 }
 
+export interface Testimonial {
+  name: string;
+  role: string;
+  company: string;
+  quote: string;
+  initials: string;
+}
+
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
 export interface FooterSocialLink {
   icon: LucideIcon;
   label: string;

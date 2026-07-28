@@ -1,4 +1,4 @@
-import { Feature, FooterColumn, FooterSocialLink, HeroStat, NavLink, Step, ValueProp } from "@/lib/types";
+import { Feature, FooterColumn, FooterSocialLink, HeroStat, NavLink, Step, ValueProp, Testimonial, FaqItem, } from "@/lib/types";
 import {
   Code2,
   Target,
@@ -50,39 +50,6 @@ export const STEPS:Step[] = [
     title: "3. Simulate the real thing",
     description:
       "Once a track is solid, take a timed mock interview that mirrors the format and pressure of the real interview.",
-  },
-];
-
-export const FOOTER_SOCIAL_LINKS:FooterSocialLink[] = [
-  { icon: Github, label: "GitHub" },
-  { icon: Twitter, label: "Twitter" },
-  { icon: Linkedin, label: "LinkedIn" },
-];
-
-export const FOOTER_COLUMNS:FooterColumn[] = [
-  {
-    title: "Product",
-    links: [
-      { label: "Practice tracks", href: "#product" },
-      { label: "Mock interviews", href: "#features" },
-      { label: "Pricing", href: "#cta" },
-    ],
-  },
-  {
-    title: "Company",
-    links: [
-      { label: "Why CodeHurdle", href: "#why-us" },
-      { label: "Stories", href: "#testimonials" },
-      { label: "Careers", href: "#" },
-    ],
-  },
-  {
-    title: "Resources",
-    links: [
-      { label: "FAQ", href: "#faq" },
-      { label: "Help center", href: "#" },
-      { label: "Community", href: "#" },
-    ],
   },
 ];
 
@@ -149,5 +116,93 @@ export const VALUE_PROPS: ValueProp[] = [
     title: "Designed to get you unstuck fast",
     description:
       "Hint layers and guided nudges mean you're never stuck for more than a few minutes without direction.",
+  },
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    name: "Ananya Sharma",
+    role: "SDE-1",
+    company: "Fintech startup",
+    quote:
+      "The structured tracks were the difference. I stopped solving random problems and started solving the right ones in the right order.",
+    initials: "AS",
+  },
+  {
+    name: "Marcus Webb",
+    role: "New Grad Engineer",
+    company: "Series B startup",
+    quote:
+      "Mock interviews under a timer exposed exactly where I froze up. Fixing that mattered more than solving 200 more problems.",
+    initials: "MW",
+  },
+  {
+    name: "Priya Ramanathan",
+    role: "Backend Engineer",
+    company: "Cloud infrastructure company",
+    quote:
+      "The explanations actually teach the pattern instead of just showing a solution. I could apply what I learned to problems I'd never seen.",
+    initials: "PR",
+  },
+];
+
+export const FAQ_ITEMS: FaqItem[] = [
+  {
+    question: "Who is CodeHurdle built for?",
+    answer:
+      "Primarily students and early-career engineers preparing for technical interviews, along with self-taught developers building structured fundamentals before applying.",
+  },
+  {
+    question: "Is there a free plan?",
+    answer:
+      "Yes. The core practice tracks, a limited set of mock interviews, and community discussion are free. Paid plans unlock company-specific sets and unlimited timed simulations.",
+  },
+  {
+    question: "How is this different from just using free problem archives?",
+    answer:
+      "Ordering and feedback. Free archives give you problems; CodeHurdle gives you a sequence matched to your current level, plus explanations and progress tracking that tell you what to do next.",
+  },
+  {
+    question: "Do I need prior programming experience?",
+    answer:
+      "Basic familiarity with a language (Python, Java, or JavaScript) is enough to start. Tracks begin at fundamentals and scale up from there.",
+  },
+  {
+    question: "Can I cancel a paid plan anytime?",
+    answer:
+      "Yes, plans are month-to-month with no lock-in, and you keep access through the end of the billing period you've already paid for.",
+  },
+];
+
+export const FOOTER_SOCIAL_LINKS:FooterSocialLink[] = [
+  { icon: Github, label: "GitHub" },
+  { icon: Twitter, label: "Twitter" },
+  { icon: Linkedin, label: "LinkedIn" },
+];
+
+export const FOOTER_COLUMNS:FooterColumn[] = [
+  {
+    title: "Product",
+    links: [
+      { label: "Practice tracks", href: "#product" },
+      { label: "Mock interviews", href: "#features" },
+      { label: "Pricing", href: "#cta" },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      { label: "Why CodeHurdle", href: "#why-us" },
+      { label: "Stories", href: "#testimonials" },
+      { label: "Careers", href: "#" },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      { label: "FAQ", href: "#faq" },
+      { label: "Help center", href: "#" },
+      { label: "Community", href: "#" },
+    ],
   },
 ];
